@@ -5,9 +5,9 @@ body{
 header{
     display: flex;
     align-items: center;
-    background-color: #946e51;
+    background-color: #9b7559;
     height: 5rem;
-    width: 100%;
+    max-width: 100%;
     padding: 0 1rem;
     margin-top: 1rem;
 }
@@ -16,7 +16,7 @@ header{
     display: flex;
     flex-direction: row;
     align-items: center;
-    width: 100%;
+    max-width: 100%;
     gap: 0.5rem;
 }
 .nav-header{
@@ -60,6 +60,7 @@ main{
     flex-direction: column;
     align-items: center;
     text-align: center;
+    max-width: 100%;
 }
 
 .main-divisor h1{
@@ -83,3 +84,106 @@ main{
     width: 80vw;
     height: auto;
 }
+
+.nuevos-sabores{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1%;
+    margin-top: 4rem;
+    background-color:  #b89479a2;
+;
+    width: 100vw;
+    height: auto;
+    }
+
+
+
+.contenedor-cards{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5vw;
+    
+}
+
+.offer-card{
+    display: grid;
+    grid-column: auto;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 250, 237, 0.562);
+    padding: 2%;
+    border-radius: 0.5rem;
+    height: 22rem;
+    width:14rem;
+    }
+
+    .offer-card:hover{
+    background-color: rgba(255, 255, 255, 0.849);
+    padding: 2%;
+    animation: zoom 0.1s ease-in-out forwards;
+   
+    }
+
+.offer-card h1{
+  font-size: bold;
+  height: 2rem;
+}
+
+.offer-card img{
+    width: 10vw;
+    height: 10vw;
+}
+
+.offer-card button:hover{
+    cursor: url(../assets/cursor/1000185808.cur), auto;
+}
+.offer-card svg{
+    width: 12rem;
+    height: 2rem;
+    }
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #aca7a3be;
+}
+
+.lista-accesos{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 4rem;
+    margin: 2rem;
+}
+
+.icon-redes{
+    display: flex;
+    flex-direction: row;
+    gap: 8rem;
+    padding: 2rem;
+}
+
+.icon-redes svg{
+    border: solid  #8f8985;
+    background-color: #8f8985d2;
+    padding: 2rem;
+    border-radius: 2rem;
+}
+
+@keyframes zoom {
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.05);
+    }
+}
+.icon-redes svg:hover{
+    background-color: #ffffff8f;
+    animation: zoom 0.1s ease-in-out forwards;
+   }
+
+

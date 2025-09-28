@@ -60,74 +60,40 @@
   font-style: normal;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe:ital@0;1&family=Libre+Caslon+Display&family=Mountains+of+Christmas:wght@400;700&family=Pinyon+Script&family=Sansation:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Truculenta:opsz,wght@12..72,800&display=swap');
-
-
-.libre-caslon-display-regular {
-  font-family: "Libre Caslon Display", serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.sansation-light {
-  font-family: "Sansation", sans-serif;
+.comic-neue-light {
+  font-family: "Comic Neue", cursive;
   font-weight: 300;
   font-style: normal;
 }
 
-.sansation-regular {
-  font-family: "Sansation", sans-serif;
+.comic-neue-regular {
+  font-family: "Comic Neue", cursive;
   font-weight: 400;
   font-style: normal;
 }
 
-.sansation-bold {
-  font-family: "Sansation", sans-serif;
+.comic-neue-bold {
+  font-family: "Comic Neue", cursive;
   font-weight: 700;
   font-style: normal;
 }
 
-.sansation-light-italic {
-  font-family: "Sansation", sans-serif;
+.comic-neue-light-italic {
+  font-family: "Comic Neue", cursive;
   font-weight: 300;
   font-style: italic;
 }
 
-.sansation-regular-italic {
-  font-family: "Sansation", sans-serif;
+.comic-neue-regular-italic {
+  font-family: "Comic Neue", cursive;
   font-weight: 400;
   font-style: italic;
 }
 
-.sansation-bold-italic {
-  font-family: "Sansation", sans-serif;
+.comic-neue-bold-italic {
+  font-family: "Comic Neue", cursive;
   font-weight: 700;
   font-style: italic;
-}
-.pinyon-script-regular {
-  font-family: "Pinyon Script", cursive;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.truculenta-bold {
-  font-family: "Truculenta", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 800;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
-}
-
-.mountains-of-christmas-regular {
-  font-family: "Mountains of Christmas", serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.mountains-of-christmas-bold {
-  font-family: "Mountains of Christmas", serif;
-  font-weight: 700;
-  font-style: normal;
 }

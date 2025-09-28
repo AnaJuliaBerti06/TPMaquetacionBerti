@@ -1,0 +1,45 @@
+.presentacion div{
+margin: 1rem;
+}
+
+video {
+  max-width: 80%;
+  height: 50vh;
+}
+
+.galeria {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+  justify-content: center; /* Centra las imágenes horizontalmente */
+  gap: 16px; /* Espacio entre cada imagen */
+  padding: 10vw;
+}
+
+.imagen-galeria {
+    flex: 1 1 20vw;
+    width: 10vw;
+    height: 10vw;
+    box-shadow: 0 1vw 2vw rgba(0, 0, 0, 0.1);
+    border-radius: 2rem;
+    overflow: hidden;
+    transition: transform 0.3s 
+ease;
+}
+
+.imagen-galeria:hover {
+  transform: scale(1.05); /* Agranda la imagen al pasar el mouse */
+}
+
+.imagen-galeria img {
+  width: 100%; /* Asegura que la imagen ocupe todo el ancho de su contenedor */
+  height: auto; /* Mantiene la proporción de la imagen */
+  display: block;
+}
+
+.imagen-galeria p {
+  padding: 10px;
+  text-align: center;
+  font-family: sans-serif;
+  color: #333;
+}
