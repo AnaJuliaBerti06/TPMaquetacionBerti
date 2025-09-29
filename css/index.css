@@ -1,3 +1,7 @@
+*{
+padding: 0;
+margin: 0;
+}
 body{
     background-image: url(../assets/fondo/background.png);
 }
@@ -84,9 +88,9 @@ main{
 }
 
  .video-container {
-    
-    width: 80%; /* or whatever width you prefer */
-    max-width: 100%; /* An example to prevent it from getting too wide on large screens */
+       
+    width: 60%; /* or whatever width you prefer */
+    max-width: 80%; /* An example to prevent it from getting too wide on large screens */
 }
 .horneada {
     width: 100%;
