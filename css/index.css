@@ -76,13 +76,13 @@ main{
 }
 
 .video-container{
-    width: 100vw;
+    width: 90vw;
     height: auto;
 }
 
 .horneada{
-    width: 80vw;
-    height: auto;
+    width: 90vw;
+    
 }
 
 .nuevos-sabores{
@@ -144,7 +144,7 @@ main{
     height: 2rem;
     }
 
-footer{
+.main-footer{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -185,5 +185,4 @@ footer{
     background-color: #ffffff8f;
     animation: zoom 0.1s ease-in-out forwards;
    }
-
 
