@@ -1,0 +1,100 @@
+.seccion-compras {
+  font-family: Arial, sans-serif;
+  padding: 4%;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.contenedor-compra {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4%; /* Espacio entre el formulario y la galería */
+}
+
+/* Estilos del formulario */
+.opciones-compra {
+  background-color: #fff;
+  padding: 3%;
+  border-radius: 10px;
+  box-shadow: 0 4% 10% rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 40%;
+}
+
+.opcion {
+  margin-bottom: 2%;
+}
+
+.opcion label {
+  display: block;
+  margin-bottom: 1%;
+  font-weight: bold;
+}
+
+.opcion input, .opcion select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+button[type="submit"] {
+  width: 100%;
+  padding: 15px;
+  background-color: #e57373; /* Un color atractivo para el botón */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: #d32f2f;
+}
+
+/* Estilos de la galería */
+.galeria-sabores {
+   width: 100%;
+  max-width: 100%;
+  padding: 1%;
+}
+
+.galeria-contenedor {
+    display: flex;
+    justify-content: center;
+    gap: 2%;
+    width: 100%;
+    align-items: center;
+    padding: 2%;
+}
+
+.galeria-item {
+      border: 2px solid transparent;
+    border-radius: 1rem;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 2%;
+  transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+.galeria-item:hover {
+  transform: scale(1.05); /* Efecto de zoom al pasar el cursor */
+}
+
+.galeria-item img {
+  width: 50%;
+  height: 50%;
+  
+}
+
+.galeria-item p {
+  padding: 1%;
+  margin: 0;
+  background-color: #fff;
+  font-weight: bold;
+}

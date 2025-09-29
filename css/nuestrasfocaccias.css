@@ -21,10 +21,25 @@ video {
   border: 1px solid #ccc;
   padding: 5px;
   text-align: center;
+ 
+  
 }
 
 .imagen-galeria img {
   width: 100%; /* Las imágenes se ajustarán al ancho de su contenedor */
   height: auto; /* Mantienen la proporción original */
   display: block; /* Elimina el espacio extra debajo de las imágenes */
+}
+
+@keyframes zoom3d{
+  from{ transform: scale(1);
+
+  }
+  to {transform:  scale(2);
+  }
+}
+
+.imagen-galeria:hover{
+  /* Opcional: añade un poco de estilo al contenedor de la imagen */
+    animation: zoom3d 0.2s ease-in-out forwards ;
 }

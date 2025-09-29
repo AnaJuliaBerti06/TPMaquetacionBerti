@@ -1,0 +1,124 @@
+.formulario-container {
+    width: 60%; /* Ancho general del contenedor */
+    max-width: 100%;
+    margin: 5%; /* Centra el formulario */
+    padding: 2%;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f975;
+}
+
+.titulo-form h3 {
+    text-align: center;
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 25px;
+}
+
+.form-content {
+    display: flex;
+    flex-direction: column;
+    padding: 1%;
+  
+}
+
+.datos-identif{
+    display: flex;
+    flex-direction: row;
+    gap: 2%;
+    align-items: center;
+}
+
+.campo-grupo input{
+width: 35%;
+}
+
+.checkbox-grupo input:hover{
+cursor: pointer;
+}
+.campo-grupo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    padding: 2%;
+    gap: 2%;
+}
+
+.campo-grupo label {
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #555;
+}
+
+input, textarea, select {
+    width: 100%;
+    padding: 1%;
+    border: 1px solid #dddddde5;
+    border-radius: 1rem;
+    box-sizing: content-box;
+}
+
+
+.campo-grupo select{
+    cursor: pointer;
+}
+
+textarea {
+    resize: vertical;
+    height: 40%;
+}
+.checkbox-grupo b{
+    font-weight: bold;
+    color: #555;
+}
+.checkbox-grupo label {
+    font-weight: normal;
+    margin-left: 1%;
+}
+
+.checkbox-grupo input[type="checkbox"] {
+    width: auto;
+    margin-right: 5px;
+}
+
+.boton-form {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 2%;
+    gap: 2%;
+}
+
+button[type="submit"]{
+    width: 50%;
+     background-color: #588058;
+     border: transparent;
+     border-radius: 1rem;
+     height: 5%;
+     font-weight: bold;
+     font-size: large;
+}
+
+button[type="submit"]:hover {
+    background-color: #4cae4c;
+    cursor: pointer;
+}
+
+
+button[type="reset"]{
+    width: 50%;
+     background-color: #df8670;
+     border: transparent;
+     border-radius: 1rem;
+     height: 5%;
+     font-weight: bold;
+     font-size: large;
+     
+}
+
+button[type="reset"]:hover {
+    background-color: #f76a51;
+    cursor: pointer;
+}

@@ -60,11 +60,19 @@ main{
     flex-direction: column;
     align-items: center;
     text-align: center;
+                 
+}
+
+.main-divisor{
+     display: flex;
+     flex-direction: column;
+    align-items: center;
+    width: 100%;
     max-width: 100%;
 }
 
 .main-divisor h1{
-   font-weight: bold;
+     font-weight: bold;
    font-size: xx-large;
     text-shadow: 0 0 1rem rgb(2, 2, 2);
 }
@@ -75,14 +83,15 @@ main{
     margin: 0.3rem;
 }
 
-.video-container{
-    width: 90vw;
-    height: auto;
-}
-
-.horneada{
-    width: 90vw;
+ .video-container {
     
+    width: 80%; /* or whatever width you prefer */
+    max-width: 100%; /* An example to prevent it from getting too wide on large screens */
+}
+.horneada {
+    width: 100%;
+    height: auto;
+    display: block; /* This helps prevent extra space below the video */
 }
 
 .nuevos-sabores{
@@ -92,11 +101,9 @@ main{
     padding: 1%;
     margin-top: 4rem;
     background-color:  #b89479a2;
-;
-    width: 100vw;
-    height: auto;
+    width: 99%
+    
     }
-
 
 
 .contenedor-cards{
@@ -115,8 +122,6 @@ main{
     background-color: rgba(255, 250, 237, 0.562);
     padding: 2%;
     border-radius: 0.5rem;
-    height: 22rem;
-    width:14rem;
     }
 
     .offer-card:hover{
@@ -155,10 +160,23 @@ main{
     display:flex;
     flex-direction: row;
     align-items: center;
-    gap: 4rem;
-    margin: 2rem;
+    gap: 12rem;
+    
 }
 
+.lista-accesos h2 a{
+    text-decoration: none;    
+    font-family: "Sansation", sans-serif;
+    font-size: 3rem;
+    font-weight: 500;
+    color: hsla(0, 100%, 99%, 0.966);
+    
+}
+
+.lista-accesos h2 a:hover{
+        background-color: #c9c0bae0;
+    border-radius: 1rem;
+}
 .icon-redes{
     display: flex;
     flex-direction: row;
@@ -185,4 +203,5 @@ main{
     background-color: #ffffff8f;
     animation: zoom 0.1s ease-in-out forwards;
    }
+
 
