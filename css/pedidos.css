@@ -40,7 +40,7 @@
   box-sizing: border-box;
 }
 
-button[type="submit"] {
+button[type="pedir"] {
   width: 100%;
   padding: 15px;
   background-color: #e57373; /* Un color atractivo para el botón */
@@ -52,7 +52,7 @@ button[type="submit"] {
   transition: background-color 0.3s ease;
 }
 
-button[type="submit"]:hover {
+button[type="pedir"]:hover {
   background-color: #d32f2f;
 }
 
