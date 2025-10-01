@@ -6,14 +6,18 @@ body{
     background-image: url(../assets/fondo/background.png);
 }
 
+.nav-header{
+    max-width: 70%;
+    width: 40%;
+}
+
 header{
     display: flex;
     align-items: center;
     background-color: #9b7559;
-    height: 5rem;
+    height: 4%;
     max-width: 100%;
-    padding: 0 1rem;
-    margin-top: 1rem;
+    margin-top: 1%;
 }
 
 .header-container{
@@ -23,9 +27,7 @@ header{
     max-width: 100%;
     gap: 0.5rem;
 }
-.nav-header{
-    height: 100%;
-    }
+
 .header-ul{
     display: flex;
     flex-direction: row;
@@ -42,7 +44,7 @@ header{
     color: aliceblue;
     font-family: "Sansation", sans-serif;
     font-weight: 700;
-    font-size: large;
+    font-size:30px ;
     padding: 1rem;
 }
 
@@ -105,7 +107,7 @@ main{
     padding: 1%;
     margin-top: 4rem;
     background-color:  #b89479a2;
-    width: 99%
+    width: 98%
     
     }
 
@@ -115,6 +117,7 @@ main{
     flex-direction: row;
     align-items: center;
     gap: 5vw;
+   
     
 }
 
@@ -126,6 +129,7 @@ main{
     background-color: rgba(255, 250, 237, 0.562);
     padding: 2%;
     border-radius: 0.5rem;
+    width: 25%;
     }
 
     .offer-card:hover{
@@ -149,11 +153,12 @@ main{
     cursor: url(../assets/cursor/1000185808.cur), auto;
 }
 .offer-card svg{
-    width: 12rem;
+    width: 1.5rem;
     height: 2rem;
     }
 
 .main-footer{
+    padding-top: 2%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -171,7 +176,7 @@ main{
 .lista-accesos h2 a{
     text-decoration: none;    
     font-family: "Sansation", sans-serif;
-    font-size: 3rem;
+    font-size: 1.5rem;
     font-weight: 500;
     color: hsla(0, 100%, 99%, 0.966);
     
