@@ -1,23 +1,32 @@
 .nav-bar{
   max-width: 70%;
-  max-height: 50%;
+ 
 }
-.presentacion div{
-margin: 1rem;
+.presentacion{
+  display: flex;
+  flex-direction: column;
+  margin: 1%;
+  
+}
+.video-nf{
+    display: flex;
+    justify-content: center;
+    
 }
 
-video {
-  max-width: 100%;
-  height: 60vh;
+.estiba{
+width: 80%;
+
 }
 
 .galeria{
   display: grid;
-  grid-template-columns: repeat(2, 1fr); /* Esto crea 2 columnas de igual tamaño */
-  gap: 15px; /* Espacio entre las imágenes */
-  padding: 20px; /* Espacio alrededor de la galería */
-  max-width: 800px; /* Ancho máximo del contenedor para centrarlo */
-  margin: 0 auto; /* Centra el contenedor en la página */
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px; 
+  padding: 20px; 
+  max-width: 800px; 
+  margin: 0 auto; 
+
 }
 
 .imagen-galeria {

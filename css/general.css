@@ -117,3 +117,13 @@ header{
     background-color: #ffffff8f;
     animation: zoom 0.1s ease-in-out forwards;
    }
+
+     @media (max-width:1024px){
+    .campo-grupo.checkbox-grupo{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+   
+}
