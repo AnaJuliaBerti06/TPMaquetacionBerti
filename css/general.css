@@ -6,51 +6,57 @@ body{
     background-image: url(../assets/fondo/background.png);
 }
 
-.nav-header{
-    max-width: 70%;
-    width: 40%;
-}
-
-header{
+.main-header{
     display: flex;
     align-items: center;
     background-color: #9b7559;
-    height: 4%;
+    height: 80px;
     max-width: 100%;
-    margin-top: 1%;
+    margin-top: 1.5%;
+}
+.nav-header{
+    max-width: 100%;
+    width: 75%;
+    padding: 0;
+    display: flex;
+    justify-content:left;
+
 }
 
 .header-container{
     display: flex;
     flex-direction: row;
     align-items: center;
-    max-width: 100%;
-    gap: 0.5rem;
-}
+    width: 100%;
+    gap:2%;
+    }
+
 
 .header-ul{
-    display: flex;
-    flex-direction: row;
     list-style: none;
+    display: flex;
+    gap: 5%;
     align-items: center;
-    text-align: center;
-    padding: 0rem;
-    justify-content: space-between 1rem;
-    }
+    justify-content: center;
+      
+}
 
 
 .header-ul li{
-    padding: 0.2rem;
-    margin: 0.2rem;
+        margin: 0.5rem;
+       text-align: center;
+   
     }
 .header-ul li a{
     text-decoration: none;
-    white-space: nowrap;
     color: aliceblue;
     font-family: "Sansation", sans-serif;
     font-weight: 700;
-    font-size:30px ;
-    padding: 20%;
+    font-size:25px ;
+    padding: 1%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .header-ul li a:hover{
     color: rgb(34, 35, 36);
@@ -76,12 +82,12 @@ header{
     
 }
 
-.lista-accesos li a{
+.lista-accesos h2 a{
     text-decoration: none;    
     font-family: "Sansation", sans-serif;
     font-size: 1.5rem;
     font-weight: 500;
-    color: hsla(0, 0%, 99%, 0.966);
+    color: hsla(0, 20%, 94%, 0.966);
     
 }
 
@@ -129,11 +135,7 @@ header{
         .lista-accesos h2 a{
             white-space: nowrap;
             padding: 1%;
-            text-decoration: none;
-            font-family: "Sansation", sans-serif;
-            font-size: 20px;
-            font-weight: 500;
-            color: hsla(0, 100%, 99%, 0.966);
+            font-size: 20px;                       
             }
         
         .lista-accesos{
@@ -160,4 +162,60 @@ header{
         }
     }
 
+    @media (max-width:768px){
+
+        .header-container{
+            gap:5%;
+            }
+
+            .main-header{
+                height: 50px;                    
+                margin-top: 2.5%;    
+                }   
+              
+            .header-ul li a{
+             font-size:15px ;                
+                }
+
+             .main-divisor h1{            
+                font-size: 10px;            
+                }
+            .main-divisor p{                
+                font-size: 5px;
+            }
+       
+    }
+
+     @media (max-width:450px){
+
+        .header-container{
+            height: 50px;
+            gap:2%;
+            }
+
+            .main-header{
+                height: 30px;                    
+                margin-top: 10%;    
+                } 
+
+                .img-header-logo{
+                height: 50px;
+                width: 50px;
+            }                
+           
+            .header-ul li a{
+             font-size:10px ;                
+                }
+
+             .main-divisor h1{            
+                font-size: 5px;            
+                }
+            .main-divisor p{                
+                font-size: 3px;
+            }
+       
+
+       
+    }
         
+    

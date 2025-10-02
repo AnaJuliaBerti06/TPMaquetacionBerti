@@ -12,16 +12,19 @@
     flex-direction: column;
     align-items: center;
     padding: 1%;
+    width: 70%;
 }
 
 .main-divisor h1{
      font-weight:300;
+     text-align: center;
    font-size: 50px;
     text-shadow: 0 0 1rem rgb(2, 2, 2);
 }
 .main-divisor p{
     font-family: "Pinyon Script", cursive ;
     font-size: 50px;
+    text-align: center;
     font-weight: 400;
     margin: 0.3rem;
 }
