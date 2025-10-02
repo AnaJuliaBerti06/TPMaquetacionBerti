@@ -31,7 +31,6 @@ header{
 .header-ul{
     display: flex;
     flex-direction: row;
-    
     list-style: none;
     align-items: center;
     text-align: center;
@@ -39,6 +38,11 @@ header{
     justify-content: space-between 1rem;
     }
 
+
+.header-ul li{
+    padding: 0.2rem;
+    margin: 0.2rem;
+    }
 .header-ul li a{
     text-decoration: none;
     white-space: nowrap;
@@ -46,14 +50,8 @@ header{
     font-family: "Sansation", sans-serif;
     font-weight: 700;
     font-size:30px ;
-    padding: 1rem;
+    padding: 20%;
 }
-
-.header-ul li{
-    padding: 0.2rem;
-    margin: 0.2rem;
-    }
-
 .header-ul li a:hover{
     color: rgb(34, 35, 36);
     padding: 1rem;
@@ -78,12 +76,12 @@ header{
     
 }
 
-.lista-accesos h2 a{
+.lista-accesos li a{
     text-decoration: none;    
     font-family: "Sansation", sans-serif;
     font-size: 1.5rem;
     font-weight: 500;
-    color: hsla(0, 100%, 99%, 0.966);
+    color: hsla(0, 0%, 99%, 0.966);
     
 }
 
@@ -96,6 +94,7 @@ header{
     flex-direction: row;
     gap: 8rem;
     padding: 2rem;
+    justify-content: center;
 }
 
 .icon-redes svg{
@@ -119,11 +118,46 @@ header{
    }
 
      @media (max-width:1024px){
-    .campo-grupo.checkbox-grupo{
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
+
+       
+        .campo-grupo.checkbox-grupo{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+
+        .lista-accesos h2 a{
+            white-space: nowrap;
+            padding: 1%;
+            text-decoration: none;
+            font-family: "Sansation", sans-serif;
+            font-size: 20px;
+            font-weight: 500;
+            color: hsla(0, 100%, 99%, 0.966);
+            }
+        
+        .lista-accesos{
+            display:flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            gap: 20%;
+
+        }
+    
+        .icon-redes{
+            display: flex;
+            flex-direction: row;
+            gap: 100%;
+            padding: 2%;
+        }
+
+        .icon-redes svg{
+            border: solid  #8f8985;
+            background-color: #8f8985d2;
+            padding: 20%;
+            border-radius: 30%;
+        }
     }
 
-   
-}
+        
